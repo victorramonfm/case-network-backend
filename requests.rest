@@ -1,0 +1,15 @@
+### Get contributors
+GET http://localhost:3003/contributors
+
+### Register contributor
+POST http://localhost:3003/contributors
+Content-Type: application/json
+
+{
+    "firstName": "Rock",
+    "lastName": "Lee",
+    "participation": 8
+}
+
+### Register contributor
+DELETE http://localhost:3003/contributors/9
